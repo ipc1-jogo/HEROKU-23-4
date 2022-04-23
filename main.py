@@ -7,7 +7,7 @@ comics = []
 @app.route('/')
 def home():
     diccionario_envio = {
-        "msg": 'Servidor funcionando correctamente en despliegue 2',
+        "msg": 'Servidor funcionando correctamente, despliegue ejemplo clase.',
         "status": 200
     }
     
